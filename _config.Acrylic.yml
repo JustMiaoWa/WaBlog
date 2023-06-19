@@ -233,7 +233,7 @@ post:
     wechat:  https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305142347635.jpg
     alipay: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305142347636.jpg
     url:  
-  covercolor: #文章cover取色  
+  covercolor: #文章cover取色
     enable: false
     local: true  
 
