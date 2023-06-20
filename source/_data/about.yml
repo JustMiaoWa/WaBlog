@@ -68,13 +68,16 @@ careers:
   title: "生涯"
   subtitle: "无限进步"
   items:
-    - school: "成都信息工程大学"
+    - school: "成都信息工程大学" 
       major: "软件设计专业"
       color: "#357ef5"
-    # - school: "ITSO"
-    #   major: "UI/产品经理"
-    #   color: "#eb372a"
-  image: "https://p.zhheo.com/20236d5152f4058d0b8b29185c7b71bbd74a071902.png!cover"
+    - school: "北京超图软件股份有限公司成都分公司"
+      major: "后端工程师"
+      color: "#eb372a"
+    - school: "四川百旺金赋科技有限公司"
+      major: "后端工程师"
+      color: "#3c53ff"
+  image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306202156346.png"
 
 personalities:
   tips: "性格"
@@ -90,11 +93,11 @@ personalities:
 
 motto:
   title: 摘抄
-  prefix: 答案在路上，
-  content: 自由在风中。
+  prefix: 我是我自己的诗,
+  content: 所以允许有错别字。
 expertise:
   title: 小时候
-  prefix: 吃饭那是狂炫三大碗米饭
+  prefix: 吃饭狂炫三大碗米饭
   specialist: 
   content: 电视收音机硬件狂拆败家
   level: 

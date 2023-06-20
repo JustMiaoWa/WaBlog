@@ -299,7 +299,8 @@ comment:
 # 插入额外代码 如：统计，广告等
 extends: 
   head: # 在head中插入
-    # - <script></script>
+    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    - <script>LA.init({id:"3F22QjS1soE14ZjJ",ck:"3F22QjS1soE14ZjJ",hashMode:true})</script>
   body: # 在body中插入
 
 # 非必要勿动
