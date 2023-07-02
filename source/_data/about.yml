@@ -11,7 +11,7 @@ authorinfo:
     - "壮汉人狠话不多 💢"
   image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305090021448.jpg"
 contentinfo:
-  name: 妙哇
+  name: 哇子
   title: 后端开发者、前端爱好者、博主
   product: 优秀的产品
   design: 出色的设计
@@ -23,13 +23,13 @@ skills:
   subtitle: 开启创造力
   tags:
     - title: Java
-      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192259741.png
-      color: "#989bf8"
+      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012251124.png
+      color: "#2f7aff"
     - title: Linux
       icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192300927.png
       color: "#ffffff"
     - title: Docker
-      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192258155.png
+      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307021822799.png
       color: "#57b6e6"
     # - title: Photoshop
     #   icon: https://p.zhheo.com/2023e4058a91608ea41751c4f102b131f267075902.png!cover
@@ -38,8 +38,8 @@ skills:
     #   icon: https://p.zhheo.com/20233e777652412247dd57fd9b48cf997c01070702.png!cover
     #   color: "#ffffff"
     - title: Python
-      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192257394.png
-      color: "#ffffff"
+      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307021307942.png
+      color: "#2f7aff"
     # - title: "Swift"
     #   color: "#eb6840"
     #   icon: "https://p.zhheo.com/202328bbee0b314297917b327df4a704db5c072402.png!cover"
@@ -51,16 +51,16 @@ skills:
     #   icon: "https://p.zhheo.com/20237359d71b45ab77829cee5972e36f8c30073902.png!cover"
     - title: "CSS3"
       color: "#2c51db"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192255272.png"
+      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012332911.png"
     - title: "JS"
       color: "#f7cb4f"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192256493.png"
+      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012313073.png"
     - title: "HTML"
       color: "#e9572b"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192253922.png"
+      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012323537.png"
     - title: "Git"
       color: "#df5b40"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192250916.png"
+      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307021314239.png"
     # - title: "Rhino"
     #   color: "#1f1f1f"
     #   icon: "https://p.zhheo.com/20231ca53fa0b09a3ff1df89acd7515e9516173302.png!cover"
@@ -77,7 +77,7 @@ careers:
     - school: "四川百旺金赋科技有限公司"
       major: "后端工程师"
       color: "#3c53ff"
-  image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306202156346.png"
+  image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306241732028.gif"
 
 personalities:
   tips: "性格"
@@ -138,13 +138,9 @@ tj:
   url: https://v6-widget.51.la/v6/3F22QjS1soE14ZjJ/quote.js
   img: https://bu.dusays.com/2023/03/12/640dc8c72f623.webp
 
-cause: <br>创建这个站的时候，想要就是能够有一个自己能够<b>积累知识、积累兴趣</b>的地方。和他人分享，会让这些成为积累和沉淀。如果能够帮助到更多的人，帮助更多人解决问题，那一定是非常棒的事情。
-      <br>
-      分享这件事我从很早就开始了，起初做的微信公众号，现在做的网站。因为我比较喜欢研究数码和软件，想要探究在互联网上的事物是如何被创造和发展。网络给我带来了非常多的知识和眼界，我也想力所能及的分享一些我生活的琐碎知识。
-      <br>
-      与大多数垂直类的技术博客不同，这里的种类会非常的繁杂，有<b>技能的教程干货</b>、有<b>生活上的吐槽和妙招</b>、有<b>话题上的思考和想法</b>。一般我研究什么、发现了什么都会分享在这里。
-      <br>
-      这些就是创造这个小站的本意，<b>也是我分享生活的方式</b>。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。</p>
+cause: <br>有人说："照片和视频都是有记忆的，当你每次翻开以前的照片和视频，就会把思绪拉回到很久以前的某一天，尽管你已经忘了许许多多，
+       <br>但照片和视频都在一点点拼接你的大脑碎片，你可能会回忆起当时的情绪和氛围，这就是记录的意义。"
+       <br>我想，博客也是。或许等我到了很久很久以后，已经忘却了很多很多，当我再次翻开我的博客时，我也会想起当时第一次敲下代码的兴奋，第一次部署项目的情绪，第一次项目上线的成就感，我或许也会开心好久。
 
 rewardList:
   - name: 风

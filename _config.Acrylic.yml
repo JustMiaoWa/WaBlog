@@ -10,7 +10,7 @@
 site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
-    custom: 妙哇       #自定义内容
+    custom: 哇子       #自定义内容
   siteIcon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305222236761.png # 网页icon
   icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305222236761.png     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
@@ -27,6 +27,8 @@ nav:
           url: /
 # 导航栏内容
   menu:
+    首页:
+      url: /
     文库:
       url: false
       child:
@@ -44,9 +46,21 @@ nav:
       child:
         友情链接:
           url: /links/
-          icon: fas fa-user-group
+          # icon: fas fa-user-group
+          icon: fa-solid fa-user-group
     关于:
-      url: /about/
+      url: false
+      child:
+        读过:
+          url: /
+          icon: fas fa-book-open
+        看过:
+          url: /
+          icon: fas fa-compact-disc
+        站长:
+          url: /about/
+          icon: fa-solid fa-user
+
 
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
@@ -101,7 +115,7 @@ hometop:
 
   categoryGroup:
     G1:
-      name: 妙哇
+      name: 哇子
       icon: fas fa-dove
       url: /
     G2:
@@ -133,7 +147,7 @@ aside:
     Sticky: "newestPost,allInfo"
 
   card:
-    content: 这有关于<b>开发</b>、<b>技术</b>相关的问题和看法。<br>希望你可以在这里找到对你有用的知识和教程。
+    content: 有人说：" 照片和视频都是有记忆的，每次翻开思绪就会拉回到以前的某一天。"<br>我想，博客也是
     information:
       Github:
         icon: fa-brands fa-github
@@ -307,7 +321,7 @@ extends:
 cdn:
   head:
     pacejs: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js
-    fontawesomecss: https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css
+    fontawesomecss: https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css
     snackbarcss: /lib/snackbar.min.css
     qrcodejs: /lib/qrcode.min.js
     twikoojs: https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js

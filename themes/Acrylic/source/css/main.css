@@ -2539,7 +2539,7 @@ blockquote footer cite::before {
   position: relative;
   padding-bottom: 0.3rem;
   text-shadow: rgba(0, 0, 0, 0.3) 0.05rem 0.05rem 0.1rem;
-  font-size: 0.78em;
+  font-size: 0.88em;
   cursor: pointer;
 }
 
@@ -3739,7 +3739,7 @@ html {
 
 #nav .menus_items .menus_item .menus_item_child {
   padding: 6px 4px 8px 4px;
-  border-radius: 100px;
+  /* border-radius: 100px; */
   background-color: var(--heo-card-bg);
   box-shadow: var(--heo-shadow-black);
   border: var(--style-border);
@@ -4999,14 +4999,14 @@ img.footer_mini_logo:hover {
   padding-bottom: 0;
   height: 35px;
   line-height: 35px;
-  border-radius: 40px;
+  /* border-radius: 40px; */
 }
 
 #nav .menus_items .menus_item .menus_item_child li a {
   letter-spacing: 0rem;
   display: flex;
   align-items: center;
-  border-radius: 100px;
+  /* border-radius: 100px; */
   padding: 0.3rem 0.8rem;
   width: 100%;
   color: var(--heo-fontcolor) !important;
@@ -12715,10 +12715,11 @@ a.bb-link-info:hover {
 
 .author-content-item.careers img {
   position: absolute;
-  left: 0;
+  left: 45%;
   bottom: 20px;
-  width: 100%;
+  width: 85%;
   transition: 0.6s;
+  transform: translate(-50%, 0);
 }
 
 .author-content-item.careers .careers-group {
