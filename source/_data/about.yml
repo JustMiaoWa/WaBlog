@@ -9,7 +9,7 @@ authorinfo:
     - "脚踏实地行动派 🏃"
     - "团队小组发动机 🧱"
     - "壮汉人狠话不多 💢"
-  image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305090021448.jpg"
+  image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png"
 contentinfo:
   name: 哇子
   title: 后端开发者、前端爱好者、博主
@@ -93,8 +93,8 @@ personalities:
 
 motto:
   title: 摘抄
-  prefix: 我是我自己的诗,
-  content: 所以允许有错别字。
+  prefix: 人生是自己的，
+  content: 去做想做的事。
 expertise:
   title: 小时候
   prefix: 吃饭狂炫三大碗米饭
@@ -138,9 +138,10 @@ tj:
   url: https://v6-widget.51.la/v6/3F22QjS1soE14ZjJ/quote.js
   img: https://bu.dusays.com/2023/03/12/640dc8c72f623.webp
 
-cause: <br>有人说："照片和视频都是有记忆的，当你每次翻开以前的照片和视频，就会把思绪拉回到很久以前的某一天，尽管你已经忘了许许多多，
-       <br>但照片和视频都在一点点拼接你的大脑碎片，你可能会回忆起当时的情绪和氛围，这就是记录的意义。"
-       <br>我想，博客也是。或许等我到了很久很久以后，已经忘却了很多很多，当我再次翻开我的博客时，我也会想起当时第一次敲下代码的兴奋，第一次部署项目的情绪，第一次项目上线的成就感，我或许也会开心好久。
+cause: <br><br>有人说："照片和视频都是有记忆的，当你每次翻开以前的照片和视频，就会把思绪拉回到很久以前的某一天，尽管你已经忘了许许多多，
+       <br><br>但照片和视频都在一点点拼接你的大脑碎片，你可能会回忆起当时的情绪和氛围，这就是记录的意义。"
+       <br><br>我想，博客也是。或许等我到了很久很久以后，已经忘却了很多很多，当我再次翻开我的博客时，我也会想起当时第一次敲下代码的兴奋，第一次部署项目的情绪，
+       <br><br>第一次项目上线的成就感，我或许也会开心好久。
 
 rewardList:
   - name: 风

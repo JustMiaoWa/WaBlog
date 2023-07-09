@@ -11,8 +11,8 @@ site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
     custom: 哇子       #自定义内容
-  siteIcon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305222236761.png # 网页icon
-  icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305222236761.png     # 页脚的icon、加载动画默认的icon
+  siteIcon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png # 网页icon
+  icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
 
 # 导航栏
@@ -23,7 +23,7 @@ nav:
     menu:
       我的:
         博客:
-          icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202305222236761.png
+          icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png
           url: /
 # 导航栏内容
   menu:
