@@ -91,9 +91,9 @@
 }
 
 [data-theme=dark] {
-  --heo-theme: #f2b94b;
+  --heo-theme: #3e9f50;
   --heo-theme-op: #f2b94b23;
-  --heo-theme-op-deep: #f2b94bdd;
+  --heo-theme-op-deep: #1323dddd;
   --heo-theme-none: #f2b94b00;
   --heo-blue: #0084FF;
   --heo-red: #FF3842;

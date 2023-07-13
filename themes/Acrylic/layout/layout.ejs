@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= config.language %>" data-theme="light">
+<html lang="<%= config.language %>" data-theme="dark">
     <head>
         <%- partial('partial/head', {cache: true}) %>
     </head>
@@ -25,6 +25,7 @@
         <%- partial('partial/body', {cache: true}) %>
         <%- partial('partial/compoment/third-party/search/index', {cache: true}) %>
         <%- partial('partial/compoment/third-party/music', {cache: true}) %>
-        <%- partial('partial/compoment/third-party/blogger', {cache: true}) %>  
+        <%- partial('partial/compoment/third-party/blogger', {cache: true}) %>
+        <%- partial('pop.ejs'), {cache: true} %>
     </body>
 </html>

@@ -268,13 +268,14 @@ class acrylic {
         const cachedMode = localStorage.getItem('theme');
         const isLightMode = !isDarkMode;
         
-        const nowMode =
-          cachedMode && (cachedMode === 'dark' || cachedMode === 'light')
-            ? cachedMode === 'dark' && isLightMode ? 'light'
-            : cachedMode === 'light' && isDarkMode ? 'dark'
-            : cachedMode
-            : isDarkMode ? 'dark'
-            : 'light';
+        // const nowMode =
+        //   cachedMode && (cachedMode === 'dark' || cachedMode === 'light')
+        //     ? cachedMode === 'dark' && isLightMode ? 'light'
+        //     : cachedMode === 'light' && isDarkMode ? 'dark'
+        //     : cachedMode
+        //     : isDarkMode ? 'dark'
+        //     : 'light';
+        const nowMode = 'dark';
         
         document.documentElement.setAttribute('data-theme', nowMode);
         localStorage.setItem('theme', nowMode);

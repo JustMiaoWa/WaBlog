@@ -7,27 +7,29 @@
     var element = document.getElementById('isHide');
     let isZhibo = function() {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://api.bilibili.com/x/space/acc/info?mid=3493285851040490&jsonp=jsonp', true);
-        xhr.setRequestHeader('origin', 'https://space.bilibili.com');
-        xhr.setRequestHeader('referer', 'https://space.bilibili.com/');
-        xhr.setRequestHeader('user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63');
-        xhr.setRequestHeader('Host', 'api.bilibili.com');
+        xhr.open('GET', '/api/live/room?room_id=30298443', true);
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                element.style.display = 'flex';
-            }else {
                 var response = JSON.parse(xhr.responseText);
                 console.log(response);
+                if(response.data.live_status === 1){
+                    element.style.display = 'flex';
+                }else{
+                    element.style.display = 'none';
+                }
+            }else {
+                // var response = JSON.parse(xhr.responseText);
+                // console.log(response);
                 element.style.display = 'none';
             }
         };
         xhr.send();
     }
-    window.onload = function (){
-        // isZhibo();
+    window.addEventListener("load",function(){
+        isZhibo();
         // // 设置每隔一分钟执行一次 sendRequest 函数
-        // setInterval(isZhibo, 60000);
-    }
+        setInterval(isZhibo, 60000);
+    });
 </script>
 <style>
     @media screen and (max-width: 1300px) {

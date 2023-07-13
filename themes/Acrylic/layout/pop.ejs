@@ -1,0 +1,82 @@
+<!-- 弹出框 -->
+<div class="hello_box">
+    <div class="title">
+        <p>哇子</p>
+    </div>
+    <hr class="middle_solid"/>
+    <div class="content">
+        <p>祝你天天开心🎉🎉</p>
+    </div>
+</div>
+<script>
+    window.addEventListener("load",function(){
+
+    });
+    if (window.location.pathname === '/') {
+        // 当前页面是根页面
+        console.log("当前页面是根页面");
+    } else {
+        // 当前页面不是根页面
+        console.log("当前页面不是根页面");
+    }
+</script>
+<style>
+    @media screen and (max-width: 1300px) {
+        .hello_box {
+            display: none !important;
+        }
+    }
+    .hello_box {
+        opacity: 0;
+        min-width: 250px;
+        z-index: 1;
+        position: fixed;
+        top: 50px;
+        left: 50px;
+        cursor: pointer;
+        transition: 0.3s;
+        transform-origin: left bottom;
+        box-shadow: var(--heo-shadow-border);
+        background-color: transparent;
+        border-radius: 10px;
+        border: var(--style-border) ;
+        padding: 8px 16px;
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
+        animation: barrageOut 5s cubic-bezier(0.42, 0, 0.3, 1.11);
+    }
+    .hello_box p {
+        margin: 0;
+        padding: 0;
+    }
+    .hello_box .middle_solid{
+        margin: 0;
+        padding: 0;
+        border: var(--style-border);
+    }
+    .hello_box .title {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .hello_box .content {
+        font-size: 14px;
+    }
+
+    @keyframes barrageOut{
+        0% {
+            transform: translateX(-50px);
+            opacity: 0;
+            z-index: 1001;
+        }
+        50% {
+            transform: translateX(0px);
+            opacity: 1;
+            z-index: 1001;
+        }
+        100% {
+            transform: translateX(-50px);
+            opacity: 0;
+            z-index: 1001;
+        }
+    }
+
+</style>
