@@ -13,4 +13,25 @@ date: 2023-07-13 22:51:04
 
 ## 1、网页默认暗黑模式
 
+main.js文件下：直接将模式写死成dark
+
+```js
+// const nowMode =
+//   cachedMode && (cachedMode === 'dark' || cachedMode === 'light')
+//     ? cachedMode === 'dark' && isLightMode ? 'light'
+//     : cachedMode === 'light' && isDarkMode ? 'dark'
+//     : cachedMode
+//     : isDarkMode ? 'dark'
+//     : 'light';
+const nowMode = 'dark';
+```
+
 ## 2、修改暗黑模式下的默认主题色
+
+修改var.css中的[*data-theme*=dark] 的相关样式
+
+```css
+--heo-theme: #3e9f50;
+--heo-theme-op-deep: #1323dddd;
+```
+

@@ -6113,7 +6113,7 @@ div#banners {
 
   #banner-hover {
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 100%;
     top: 0;
     left: 0;
@@ -6139,6 +6139,7 @@ div#banners {
   }
 
   #banners:hover #banner-hover {
+    width: 100%;
     opacity: 1;
     padding-left: 2rem;
     background: var(--heo-theme-op-deep);

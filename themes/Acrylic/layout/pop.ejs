@@ -1,24 +1,70 @@
 <!-- 弹出框 -->
-<div class="hello_box">
+<div class="hello_box" id="isHello">
     <div class="title">
         <p>哇子</p>
     </div>
     <hr class="middle_solid"/>
     <div class="content">
         <p>祝你天天开心🎉🎉</p>
+        <p>
+            <i class="icon fas fa-arrow-circle-right"></i>
+        </p>
     </div>
 </div>
 <script>
-    window.addEventListener("load",function(){
-
-    });
-    if (window.location.pathname === '/') {
-        // 当前页面是根页面
-        console.log("当前页面是根页面");
-    } else {
-        // 当前页面不是根页面
-        console.log("当前页面不是根页面");
+    // 获取元素
+    var isHelloBox = document.getElementById('isHello');
+    const isHello = function(){
+        if (window.location.pathname === '/') {
+            isHelloBox.style.display = 'block';
+            isHelloBox.classList.remove('hide_box')
+        } else {
+            isHelloBox.style.display = 'none';
+            isHelloBox.classList.remove('hide_box')
+        }
     }
+    // 创建一个 MutationObserver 实例
+    const observer = new MutationObserver((mutationsList) => {
+        for (let mutation of mutationsList) {
+            // 检查 class 变化
+            if (mutation.type === "attributes" && mutation.attributeName === "class") {
+                const isClassPresent = isHelloBox.classList.contains("hide_box");
+                if (isClassPresent) {
+                    // 在元素具有目标 class 时执行的操作
+                    setTimeout(function(){
+                        isHelloBox.style.display = 'none';
+                    },700)
+                }
+            }
+        }
+    });
+    // 配置观察选项
+    const config = { attributes: true };
+
+    // 开始观察目标元素的变化
+    observer.observe(isHelloBox, config);
+
+    const addClassToIsHelloBox = function(){
+        const computedStyle = window.getComputedStyle(isHelloBox)
+        if(computedStyle.display === "block"){
+            isHelloBox.classList.add('hide_box')
+        }else{
+            isHelloBox.classList.remove('hide_box')
+        }
+    }
+    // 延迟时间给定
+    const delayTime = 5000;
+    let timerId;
+    document.addEventListener('pjax:complete',function(){
+        clearTimeout(timerId);
+        isHello();
+        timerId = setTimeout(addClassToIsHelloBox,delayTime);
+    });
+    window.addEventListener('load',function(){
+        isHello();
+        setTimeout(addClassToIsHelloBox,delayTime);
+    })
+    
 </script>
 <style>
     @media screen and (max-width: 1300px) {
@@ -27,22 +73,25 @@
         }
     }
     .hello_box {
-        opacity: 0;
-        min-width: 250px;
+        min-width: 300px;
         z-index: 1;
         position: fixed;
-        top: 50px;
+        top: 65px;
         left: 50px;
-        cursor: pointer;
         transition: 0.3s;
         transform-origin: left bottom;
         box-shadow: var(--heo-shadow-border);
-        background-color: transparent;
-        border-radius: 10px;
-        border: var(--style-border) ;
+        background-color: var(--heo-maskbgdeep);
+        border-radius: 12px;
+        border: var(--style-border);
         padding: 8px 16px;
         font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
-        animation: barrageOut 5s cubic-bezier(0.42, 0, 0.3, 1.11);
+        animation: barrageIn 0.6s cubic-bezier(0.42, 0, 0.3, 1.11);
+    }
+    .hide_box {
+        opacity: 0;
+        animation: barrageOut 0.6s cubic-bezier(0.42, 0, 0.3, 1.11);
+        z-index: -1;
     }
     .hello_box p {
         margin: 0;
@@ -51,31 +100,48 @@
     .hello_box .middle_solid{
         margin: 0;
         padding: 0;
-        border: var(--style-border);
+        border-top: var(--style-border);
+        border-bottom: none;
     }
     .hello_box .title {
         font-size: 12px;
         font-weight: bold;
     }
     .hello_box .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         font-size: 14px;
+    }
+    .hello_box .content .icon {
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .hello_box .content .icon:hover {
+        color: var(--heo-theme);
+    }
+
+    @keyframes barrageIn{
+        0% {
+            transform: translateX(-50px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
     }
 
     @keyframes barrageOut{
         0% {
-            transform: translateX(-50px);
-            opacity: 0;
-            z-index: 1001;
-        }
-        50% {
             transform: translateX(0px);
             opacity: 1;
-            z-index: 1001;
         }
+
         100% {
             transform: translateX(-50px);
             opacity: 0;
-            z-index: 1001;
         }
     }
 

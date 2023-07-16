@@ -94,6 +94,10 @@ nginx配置：
 ```js
 // 获取元素
 var element = document.getElementById('isHide');
+// 绑定点击事件
+element.addEventListener('click',function() {
+    window.open('https://live.bilibili.com/30298443');
+})
 let isZhibo = function() {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', '/api/live/room?room_id=30298443', true);
@@ -146,6 +150,10 @@ let isZhibo = function() {
 <script>
     // 获取元素
     var element = document.getElementById('isHide');
+    // 绑定点击事件
+    element.addEventListener('click',function() {
+        window.open('https://live.bilibili.com/30298443');
+    })
     let isZhibo = function() {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', '/api/live/room?room_id=30298443', true);
