@@ -176,7 +176,7 @@ aside:
   # 建站时间
   siteinfo:
     postcount: true
-    wordcount: false
+    wordcount: true
     pv: false
     uv: false
     updatetime: false

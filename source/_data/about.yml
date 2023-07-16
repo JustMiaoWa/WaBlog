@@ -94,7 +94,7 @@ personalities:
 motto:
   title: 摘抄
   prefix: 人生是自己的，
-  content: 去做想做的事。
+  content: 去做你喜欢的事。
 expertise:
   title: 小时候
   prefix: 吃饭狂炫三大碗米饭
@@ -106,7 +106,7 @@ game1:
   title: "极限国度"
   icon: "fas fa-gamepad"
   tips: "比尔吉沃特"
-  img: https://img1.baidu.com/it/u=166651334,4091479292&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+  img: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307170031662.png
 game2:
   title: "和平精英"
   icon: "fas fa-dice-d20"
@@ -126,7 +126,7 @@ likes:
 
 
 oneself:
-  map: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192152813.png
+  map: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307170009858.png
   location: '中国，成都市'
   birthYear: '1999'
   university: '成都信息工程大学'
