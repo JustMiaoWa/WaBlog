@@ -35,3 +35,11 @@ const nowMode = 'dark';
 --heo-theme-op-deep: #1323dddd;
 ```
 
+## 3、修改文章顶部封面模糊度
+
+修改main.css的7951行
+
+```css
+filter: blur(3px);
+```
+

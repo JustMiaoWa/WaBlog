@@ -89,17 +89,17 @@ personalities:
   linkText: "16personalities"
   typeLink: "https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC"
   typeName: "提倡者"
-  myphoto: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192211865.png"
+  myphoto: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307172348269.png"
 
 motto:
   title: 摘抄
   prefix: 人生是自己的，
   content: 去做你喜欢的事。
 expertise:
-  title: 小时候
-  prefix: 吃饭狂炫三大碗米饭
+  title: 喜欢
+  prefix: 逛逛B站
   specialist: 
-  content: 电视收音机硬件狂拆败家
+  content: 利用费曼学习法学习自己想学的东西
   level: 
 
 game1:
@@ -111,7 +111,7 @@ game2:
   title: "和平精英"
   icon: "fas fa-dice-d20"
   tips: "ID 1234"
-  img: https://picx.zhimg.com/80/v2-d8a61246e307db4ee2131657b8450c72_720w.webp?source=1940ef5c
+  img: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307172324844.png
 likes:
   - type: like-technology
     tips: 关注偏好

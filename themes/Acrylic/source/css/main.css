@@ -7948,7 +7948,7 @@ a.extend.prev {
   overflow: hidden;
   margin: 0 -20% 0 auto;
   transform: rotate(10deg) translateY(-10%) scale(2);
-  filter: blur(10px);
+  filter: blur(3px);
   opacity: 0.5;
 }
 
