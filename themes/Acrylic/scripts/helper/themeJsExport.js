@@ -42,7 +42,8 @@ hexo.extend.helper.register('export_config', function() {
                 empty: lang['search.empty'],
                 hit: lang['search.hit'],
                 placeholder: lang['search.placeholder'],
-            }
+            },
+            MonitorConsole: lang['MonitorConsole']
         },
         covercolor: theme.post.covercolor.enable
     }

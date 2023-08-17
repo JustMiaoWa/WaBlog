@@ -74,7 +74,7 @@ hometop:
   banner:
     enable: true
     title: 分享技术<br>与热爱生活
-    url: blog.miaowa.blog
+    url: blog.wazicode.top
     icon:
       AE:
         img: /img/icon/ae.png
@@ -115,13 +115,13 @@ hometop:
 
   categoryGroup:
     G1:
-      name: 哇子
+      name: 关于站长
       icon: fas fa-dove
-      url: /
+      url: /about/
     G2:
       name: 热门文章
       icon: fas fa-burn
-      url: /
+      url: /archives/
     G3:
       name: 实用教程
       icon: fas fa-book
@@ -147,6 +147,8 @@ aside:
     Sticky: "newestPost,allInfo"
 
   card:
+    img: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png
+    sticker: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202308162349049.png
     content: 有人说：" 照片和视频都是有记忆的，每次翻开思绪就会拉回到以前的某一天。"<br>我想，博客也是
     information:
       Github:

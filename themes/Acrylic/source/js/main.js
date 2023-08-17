@@ -106,6 +106,23 @@ const setTimeState = () => {
         }
         el.innerText = text + lang.iam;
     }
+    const el2 = document.getElementById('author-info__sayhi2')
+    if (el2) {
+        const timeNow = new Date(), hours = timeNow.getHours(), lang = GLOBALCONFIG.lang.sayhello;
+        let text = '';
+        if (hours >= 0 && hours <= 5) {
+            text = lang.goodnight;
+        } else if (hours > 5 && hours <= 10) {
+            text = lang.morning;
+        } else if (hours > 10 && hours <= 14) {
+            text = lang.noon;
+        } else if (hours > 14 && hours <= 18) {
+            text = lang.afternoon;
+        } else if (hours > 18 && hours <= 24) {
+            text = lang.night;
+        }
+        el2.innerText = text + lang.iam;
+    }
 };
 
 const chageTimeFormate = () => {

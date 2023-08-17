@@ -8,6 +8,16 @@
             </div>
             <div class="author-info__description"><%- theme.aside.card.content %></div>
         </div>
+        <div class="card-img">
+            <div class="author-info__sayhi" id="author-info__sayhi2">
+            </div>
+            <div class="avatar-img-box">
+                <img class="avatar-img" src="<%= url_for(theme.aside.card.img) %>"/>
+                <div class="avatar-sticker">
+                    <img src="<%= url_for(theme.aside.card.sticker) %>" />
+                </div>
+            </div>
+        </div>
     </div>
     <div class="banner-button-group">
         <a class="banner-button" href="<%= url_for(theme.aside.card.button.url) %>">
