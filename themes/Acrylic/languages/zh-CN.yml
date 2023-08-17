@@ -38,4 +38,6 @@ search:
   hit: 已为您找到 ${query} 条结果
   placeholder: 输入关键词快速查找
 
-MonitorConsole: 开发者模式已打开，请遵循GPL协议
+MonitorConsole: 
+  open: 开发者模式已打开，请遵循GPL协议
+  close: 开发者模式已关闭

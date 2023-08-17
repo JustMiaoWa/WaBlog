@@ -43,7 +43,11 @@ hexo.extend.helper.register('export_config', function() {
                 hit: lang['search.hit'],
                 placeholder: lang['search.placeholder'],
             },
-            MonitorConsole: lang['MonitorConsole']
+            MonitorConsole: {
+                open: lang['MonitorConsole.open'],
+                close: lang['MonitorConsole.close'],
+            }
+            
         },
         covercolor: theme.post.covercolor.enable
     }

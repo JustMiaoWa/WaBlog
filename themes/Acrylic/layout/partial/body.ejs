@@ -1,11 +1,12 @@
 <div>
     <script type="text/javascript" src="/js/utils.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
-    <!-- 引入控制台输出 -->
-    <script type="text/javascript" src="/js/MonitorConsole.js"></script>
+    
     <%- partial('partial/compoment/inject/body', {cache: true}) %>
     <%- partial('partial/compoment/third-party/pjax', {cache: true}) %>
     <% if (theme.extends.body) for (const i of theme.extends.body){ %>
         <%- i %>
     <% } %>
+    <!-- 引入控制台输出 -->
+    <script type="text/javascript" src="/js/MonitorConsole.js"></script>
 </div>

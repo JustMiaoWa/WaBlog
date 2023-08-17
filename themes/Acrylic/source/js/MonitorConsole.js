@@ -4,7 +4,7 @@ console.log = function() {}
 ;
 let now1 = new Date();
 queueMicrotask(()=>{
-    utils.snackbarShow(GLOBALCONFIG.lang.theme.dark, false, 2000)
+    
     const Log = function() {
         HoldLog.apply(console, arguments);
     };
@@ -36,5 +36,15 @@ queueMicrotask(()=>{
     setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
 
     setTimeout(console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", ""));
+
+     // 监听控制台开启或关闭事件
+    //  window.ondevtoolschange = function(event) {
+    //     if (event.detail.isOpen) {
+    //         // 当控制台被打开时执行的操作
+    //         utils.snackbarShow(GLOBALCONFIG.lang.MonitorConsole.open, false, 2000)
+    //     }else{
+    //         utils.snackbarShow(GLOBALCONFIG.lang.MonitorConsole.close, false, 2000)
+    //     }
+    // };
 }
 );
