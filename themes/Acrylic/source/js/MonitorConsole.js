@@ -37,14 +37,10 @@ queueMicrotask(()=>{
 
     setTimeout(console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", ""));
 
-     // 监听控制台开启或关闭事件
-    //  window.ondevtoolschange = function(event) {
-    //     if (event.detail.isOpen) {
-    //         // 当控制台被打开时执行的操作
-    //         utils.snackbarShow(GLOBALCONFIG.lang.MonitorConsole.open, false, 2000)
-    //     }else{
-    //         utils.snackbarShow(GLOBALCONFIG.lang.MonitorConsole.close, false, 2000)
-    //     }
-    // };
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "F12") {
+            utils.snackbarShow(GLOBALCONFIG.lang.MonitorConsole.open, false, 2000)
+        }
+    });
 }
 );
