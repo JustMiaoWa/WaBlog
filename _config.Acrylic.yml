@@ -13,7 +13,7 @@ site:
     custom: 哇子       #自定义内容
   siteIcon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png # 网页icon
   icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png     # 页脚的icon、加载动画默认的icon
-  icp:                       # ICP
+  icp: 蜀ICP备2023022177号                      # ICP
 
 # 导航栏
 nav:
