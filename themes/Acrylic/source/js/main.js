@@ -292,7 +292,7 @@ class acrylic {
         //     : cachedMode
         //     : isDarkMode ? 'dark'
         //     : 'light';
-        const nowMode = 'dark';
+        const nowMode = 'light';
         
         document.documentElement.setAttribute('data-theme', nowMode);
         localStorage.setItem('theme', nowMode);
