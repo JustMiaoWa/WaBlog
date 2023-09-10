@@ -4,7 +4,7 @@ tags:
   - Acrylic主题魔改
 recommend: true
 categories: Acrylic主题魔改
-cover: 'https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307160328006.png'
+cover: 'http://image.wazicode.top/blog/202307160328006.png'
 abbrlink: 9705fd7b
 date: 2023-07-16 03:27:37
 ---

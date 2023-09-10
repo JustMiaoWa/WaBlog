@@ -4,7 +4,7 @@ tags:
   - Acrylic主题魔改
 recommend: true
 categories: Acrylic主题魔改
-cover: 'https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307112143307.gif'
+cover: 'http://image.wazicode.top/blog/202307112143307.gif'
 abbrlink: 58dfb615
 date: 2023-07-11 21:48:29
 ---
@@ -13,7 +13,7 @@ date: 2023-07-11 21:48:29
 
 > 博主所使用Hexo版本：6.3.0，Acrylic主题版本：1.1.2，版本不同可能会有不同，注意你的版本
 
-![](https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307112143307.gif)
+![](http://image.wazicode.top/blog/202307112143307.gif)
 
 ## 1、思路步骤
 
@@ -224,7 +224,7 @@ let isZhibo = function() {
     .zhibo_all_box .zhibo_img {
         width: 70px;
         height: 70px;
-        background: url("https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png") no-repeat center / cover;
+        background: url("http://image.wazicode.top/blog/202307060036148.png") no-repeat center / cover;
         border-radius: 50%;
         box-shadow: 0 0 0 0 rgb(255, 0, 0);
         animation: ripple 2s infinite;

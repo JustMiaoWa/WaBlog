@@ -9,7 +9,7 @@ authorinfo:
     - "脚踏实地行动派 🏃"
     - "团队小组发动机 🧱"
     - "壮汉人狠话不多 💢"
-  image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307060036148.png"
+  image: "http://image.wazicode.top/blog/202307060036148.png"
 contentinfo:
   name: 哇子
   title: 后端开发者、前端爱好者、博主
@@ -23,13 +23,13 @@ skills:
   subtitle: 开启创造力
   tags:
     - title: Java
-      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012251124.png
+      icon: http://image.wazicode.top/blog/202307012251124.png
       color: "#2f7aff"
     - title: Linux
-      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306192300927.png
+      icon: http://image.wazicode.top/blog/202306192300927.png
       color: "#ffffff"
     - title: Docker
-      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307021822799.png
+      icon: http://image.wazicode.top/blog/202307021822799.png
       color: "#57b6e6"
     # - title: Photoshop
     #   icon: https://p.zhheo.com/2023e4058a91608ea41751c4f102b131f267075902.png!cover
@@ -38,7 +38,7 @@ skills:
     #   icon: https://p.zhheo.com/20233e777652412247dd57fd9b48cf997c01070702.png!cover
     #   color: "#ffffff"
     - title: Python
-      icon: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307021307942.png
+      icon: http://image.wazicode.top/blog/202307021307942.png
       color: "#2f7aff"
     # - title: "Swift"
     #   color: "#eb6840"
@@ -51,16 +51,16 @@ skills:
     #   icon: "https://p.zhheo.com/20237359d71b45ab77829cee5972e36f8c30073902.png!cover"
     - title: "CSS3"
       color: "#2c51db"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012332911.png"
+      icon: "http://image.wazicode.top/blog/202307012332911.png"
     - title: "JS"
       color: "#f7cb4f"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012313073.png"
+      icon: "http://image.wazicode.top/blog/202307012313073.png"
     - title: "HTML"
       color: "#e9572b"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012323537.png"
+      icon: "http://image.wazicode.top/blog/202307012323537.png"
     - title: "Git"
       color: "#df5b40"
-      icon: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307021314239.png"
+      icon: "http://image.wazicode.top/blog/202307021314239.png"
     # - title: "Rhino"
     #   color: "#1f1f1f"
     #   icon: "https://p.zhheo.com/20231ca53fa0b09a3ff1df89acd7515e9516173302.png!cover"
@@ -77,7 +77,7 @@ careers:
     - school: "四川百旺金赋科技有限公司"
       major: "后端工程师"
       color: "#3c53ff"
-  image: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202306241732028.gif"
+  image: "http://image.wazicode.top/blog/202306241732028.gif"
 
 personalities:
   tips: "性格"
@@ -89,7 +89,7 @@ personalities:
   linkText: "16personalities"
   typeLink: "https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC"
   typeName: "提倡者"
-  myphoto: "https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307172348269.png"
+  myphoto: "http://image.wazicode.top/blog/202307172348269.png"
 
 motto:
   title: 摘抄
@@ -106,12 +106,12 @@ game1:
   title: "极限国度"
   icon: "fas fa-gamepad"
   tips: "比尔吉沃特"
-  img: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307170031662.png
+  img: http://image.wazicode.top/blog/202307170031662.png
 game2:
   title: "和平精英"
   icon: "fas fa-dice-d20"
   tips: "ID 1234"
-  img: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307172324844.png
+  img: http://image.wazicode.top/blog/202307172324844.png
 likes:
   - type: like-technology
     tips: 关注偏好
@@ -126,7 +126,7 @@ likes:
 
 
 oneself:
-  map: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307170009858.png
+  map: http://image.wazicode.top/blog/202307170009858.png
   location: '中国，成都市'
   birthYear: '1999'
   university: '成都信息工程大学'

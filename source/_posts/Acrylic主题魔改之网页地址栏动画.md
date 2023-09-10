@@ -6,7 +6,7 @@ recommend: true
 categories: Acrylic主题魔改
 abbrlink: 6d88ee6
 date: 2023-07-01 17:02:28
-cover: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012127336.gif
+cover: http://image.wazicode.top/blog/202307012127336.gif
 ---
 
 # Acrylic主题魔改之网页地址栏动画
@@ -15,7 +15,7 @@ cover: https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012127336.gif
 
 效果：**使用这个后，浏览器左上角的历史回退功能将失效，如影响功能。 请斟酌使用**
 
-![202371212543](https://miaowa-blog.oss-cn-chengdu.aliyuncs.com/blog/202307012127336.gif)
+![202371212543](http://image.wazicode.top/blog/202307012127336.gif)
 
 ## 1、增加js文件
 
