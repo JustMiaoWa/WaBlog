@@ -51,7 +51,8 @@
 [data-theme=light] {
   --heo-theme: #425AEF;
   --heo-theme-op: #4259ef23;
-  --heo-theme-op-deep: #4259efdd;
+  /* --heo-theme-op-deep: #4259efdd; */
+  --heo-theme-op-deep: #07db78dd;
   --heo-theme-none: #4259ef01;
   --heo-blue: #425AEF;
   --heo-red: #f04a63;
