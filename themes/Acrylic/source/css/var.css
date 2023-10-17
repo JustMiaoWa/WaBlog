@@ -50,9 +50,10 @@
 
 [data-theme=light] {
   --heo-theme: #425AEF;
+  --heo-card-info: #05d13add;
   --heo-theme-op: #4259ef23;
-  /* --heo-theme-op-deep: #4259efdd; */
-  --heo-theme-op-deep: #07db78dd;
+  --heo-theme-op-deep: #4259efdd;
+  /* --heo-theme-op-deep: #07db78dd; */
   --heo-theme-none: #4259ef01;
   --heo-blue: #425AEF;
   --heo-red: #f04a63;
@@ -93,6 +94,8 @@
 
 [data-theme=dark] {
   --heo-theme: #3e9f50;
+  /* --heo-theme: #ffc848; */
+  --heo-card-info: #0c63c2;
   --heo-theme-op: #f2b94b23;
   --heo-theme-op-deep: #1323dddd;
   --heo-theme-none: #f2b94b00;

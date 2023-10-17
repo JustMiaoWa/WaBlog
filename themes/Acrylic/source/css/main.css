@@ -7665,7 +7665,7 @@ div#author-info__sayhi:hover {
 }
 
 #aside-content>.card-widget.card-info::before {
-  background: linear-gradient(-25deg, var(--heo-main), var(--heo-main-op-deep), var(--heo-main), var(--heo-main-op-deep));
+  background: linear-gradient(-25deg, var(--heo-main), var(--heo-card-info), var(--heo-main), var(--heo-card-info));
   background-size: 400%;
   position: absolute;
   width: 100%;
@@ -8777,7 +8777,8 @@ b, strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
+  flex-direction: row;
 }
 
 #article-container.post-content h1 {
