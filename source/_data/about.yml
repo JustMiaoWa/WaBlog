@@ -71,12 +71,12 @@ careers:
     - school: "成都信息工程大学" 
       major: "软件工程专业"
       color: "#357ef5"
-    - school: "北京超图软件股份有限公司成都分公司"
+    - school: "成都"
       major: "后端工程师"
       color: "#eb372a"
-    - school: "四川百旺金赋科技有限公司"
-      major: "后端工程师"
-      color: "#3c53ff"
+    # - school: "四川百旺金赋科技有限公司"
+    #   major: "后端工程师"
+    #   color: "#3c53ff"
   image: "http://image.wazicode.top/blog/202306241732028.gif"
 
 personalities:
