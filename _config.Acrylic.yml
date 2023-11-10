@@ -149,7 +149,7 @@ aside:
   card:
     img: http://image.wazicode.top/blog/202307060036148.png
     sticker: http://image.wazicode.top/blog/202308162349049.png
-    content: 有人说：" 照片和视频都是有记忆的，每次翻开思绪就会拉回到以前的某一天。"<br>我想，博客也是
+    content: 有人说：" 照片和视频都是有记忆的，每次翻开思绪就会拉回到以前的某一天。"我想，博客也是
     information:
       Github:
         icon: fa-brands fa-github

@@ -746,7 +746,8 @@ div#author-info__sayhi2 {
   color: var(--heo-white);
   background: var(--heo-white-op);
   font-size: 12px;
-  margin-right: auto;
+  /* margin-right: auto; */
+  margin: 0 auto;
   padding: 2px 8px;
   border-radius: 12px;
   width: fit-content;
@@ -7624,7 +7625,8 @@ div#author-info__sayhi {
   color: var(--heo-white);
   background: var(--heo-white-op);
   font-size: 12px;
-  margin-right: auto;
+  /* margin-right: auto; */
+  margin: 0 auto;
   padding: 2px 8px;
   border-radius: 12px;
   width: fit-content;

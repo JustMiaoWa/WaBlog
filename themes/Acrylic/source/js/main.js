@@ -93,9 +93,9 @@ const setTimeState = () => {
     if (el) {
         const timeNow = new Date(), hours = timeNow.getHours(), lang = GLOBALCONFIG.lang.sayhello;
         let text = '';
-        if (hours >= 0 && hours <= 5) {
+        if (hours >= 0 && hours <= 6) {
             text = lang.goodnight;
-        } else if (hours > 5 && hours <= 10) {
+        } else if (hours > 6 && hours <= 10) {
             text = lang.morning;
         } else if (hours > 10 && hours <= 14) {
             text = lang.noon;

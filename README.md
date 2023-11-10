@@ -23,3 +23,4 @@ Acrylic主题文档：https://next-docs.acrylic.org.cn/introduction/getting-star
 - [x] 2、2023年06月17日21:57:45     自行魔改一系列
 - [x] 3、2023年09月04日09:59:42     域名备案成功
 - [x] 4、2023年11月10日00:17:46     添加Github徽章
+- [x] 5、2023年11月10日22:40:10     优化作者卡片问候语句、修改tags，categories展示顺序
