@@ -11,8 +11,8 @@ site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
     custom: 哇子       #自定义内容
-  siteIcon: http://image.wazicode.top/blog/202307060036148.png # 网页icon
-  icon: http://image.wazicode.top/blog/202307060036148.png     # 页脚的icon、加载动画默认的icon
+  siteIcon: https://image.wazicode.top/blog/202307060036148.png # 网页icon
+  icon: https://image.wazicode.top/blog/202307060036148.png     # 页脚的icon、加载动画默认的icon
   icp: 蜀ICP备2023022177号                      # ICP
 
 # 导航栏
@@ -23,7 +23,7 @@ nav:
     menu:
       我的:
         博客:
-          icon: http://image.wazicode.top/blog/202307060036148.png
+          icon: https://image.wazicode.top/blog/202307060036148.png
           url: /
 # 导航栏内容
   menu:
@@ -147,8 +147,8 @@ aside:
     Sticky: "newestPost,allInfo"
 
   card:
-    img: http://image.wazicode.top/blog/202307060036148.png
-    sticker: http://image.wazicode.top/blog/202308162349049.png
+    img: https://image.wazicode.top/blog/202307060036148.png
+    sticker: https://image.wazicode.top/blog/202308162349049.png
     content: 有人说：" 照片和视频都是有记忆的，每次翻开思绪就会拉回到以前的某一天。"我想，博客也是
     information:
       Github:
@@ -169,7 +169,7 @@ aside:
     backface:
       title: 扫一扫
       desc: 获取最新信息和帮助
-      img: http://image.wazicode.top/blog/202305210142013.jpg
+      img: https://image.wazicode.top/blog/202305210142013.jpg
 
   toc: 
     post: true
@@ -233,7 +233,7 @@ page:
 # 文章页默认设置
 post:
   default:
-    cover: http://image.wazicode.top/blog/202305142347631.jpg
+    cover: https://image.wazicode.top/blog/202305142347631.jpg
     locate: 成都
     copyright: 原创
   meta:
