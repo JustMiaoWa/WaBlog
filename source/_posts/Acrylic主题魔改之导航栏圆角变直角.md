@@ -4,7 +4,7 @@ tags:
   - Acrylic主题魔改
 recommend: true
 categories: Acrylic主题魔改
-cover: 'http://image.wazicode.top/blog/202306302328254.png'
+cover: 'https://image.wazicode.top/blog/202306302328254.png'
 abbrlink: 69c368c5
 date: 2023-06-30 23:21:07
 ---
@@ -15,7 +15,7 @@ date: 2023-06-30 23:21:07
 
 ## 修改完之后的效果是这样的
 
-![image-20230630232828164](http://image.wazicode.top/blog/202306302328254.png)
+![image-20230630232828164](https://image.wazicode.top/blog/202306302328254.png)
 
 修改完之后的效果是这样的，可以看到由原来的圆角修改成了直角
 

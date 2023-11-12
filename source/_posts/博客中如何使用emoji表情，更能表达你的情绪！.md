@@ -5,7 +5,7 @@ recommend: true
 abbrlink: 13d26899
 date: 2023-10-08 23:34:14
 categories: 'hexo魔改'
-cover: 'http://image.wazicode.top/blog/202310122342257.png'
+cover: 'https://image.wazicode.top/blog/202310122342257.png'
 ---
 
 # 博客中如何使用emoji表情，更能表达你的情绪！

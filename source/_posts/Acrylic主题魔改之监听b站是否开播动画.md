@@ -4,7 +4,7 @@ tags:
   - Acrylic主题魔改
 recommend: true
 categories: Acrylic主题魔改
-cover: 'http://image.wazicode.top/blog/202307112143307.gif'
+cover: 'https://image.wazicode.top/blog/202307112143307.gif'
 abbrlink: 58dfb615
 date: 2023-07-11 21:48:29
 ---
@@ -13,7 +13,7 @@ date: 2023-07-11 21:48:29
 
 > 博主所使用Hexo版本：6.3.0，Acrylic主题版本：1.1.2，版本不同可能会有不同，注意你的版本
 
-![](http://image.wazicode.top/blog/202307112143307.gif)
+![](https://image.wazicode.top/blog/202307112143307.gif)
 
 ## 1、思路步骤
 

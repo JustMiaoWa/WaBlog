@@ -4,7 +4,7 @@ tags:
   - Acrylic主题魔改
 recommend: false
 categories: Acrylic主题魔改
-cover: 'http://image.wazicode.top/blog/202307081755779.gif'
+cover: 'https://image.wazicode.top/blog/202307081755779.gif'
 abbrlink: e31eac05
 date: 2023-07-08 17:53:32
 ---
@@ -15,7 +15,7 @@ date: 2023-07-08 17:53:32
 
 最后实现效果：
 
-![](http://image.wazicode.top/blog/202307081755779.gif)
+![](https://image.wazicode.top/blog/202307081755779.gif)
 
 ## 1、获取百分比进度条原理
 

@@ -4,7 +4,7 @@ tags:
   - Github
 recommend: true
 categories: 'Github'
-cover: http://image.wazicode.top/blog/202311100038497.png
+cover: https://image.wazicode.top/blog/202311100038497.png
 abbrlink: 2e49af46
 date: 2023-11-10 00:01:51
 ---
@@ -17,11 +17,11 @@ date: 2023-11-10 00:01:51
 
 ## Vue
 
-![image-20231110213707222](http://image.wazicode.top/blog/202311102137295.png)
+![image-20231110213707222](https://image.wazicode.top/blog/202311102137295.png)
 
 ## React
 
-![image-20231110213924728](http://image.wazicode.top/blog/202311102139790.png)
+![image-20231110213924728](https://image.wazicode.top/blog/202311102139790.png)
 
 
 
@@ -49,13 +49,13 @@ date: 2023-11-10 00:01:51
 
 
 
-![image-20231110215511755](http://image.wazicode.top/blog/202311102155903.png)
+![image-20231110215511755](https://image.wazicode.top/blog/202311102155903.png)
 
 示例：填入以下参数点击生成按钮得到如下徽章
 
 <div align="center"><img alt="Static Badge" src="https://img.shields.io/badge/v1.0.0-white?label=%E5%93%87%E5%AD%90&labelColor=%2325c2a0&color=white"></div>
 
-![image-20231110215900970](http://image.wazicode.top/blog/202311102159100.png)
+![image-20231110215900970](https://image.wazicode.top/blog/202311102159100.png)
 
 
 

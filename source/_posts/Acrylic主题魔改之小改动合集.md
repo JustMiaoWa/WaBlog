@@ -4,7 +4,7 @@ tags:
   - Acrylic主题魔改
 recommend: false
 categories: Acrylic主题魔改
-cover: 'http://image.wazicode.top/blog/202307132305802.png'
+cover: 'https://image.wazicode.top/blog/202307132305802.png'
 abbrlink: 73dd555b
 date: 2023-07-13 22:51:04
 ---
