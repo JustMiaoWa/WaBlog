@@ -246,9 +246,9 @@ post:
     comment: true      
   award:
     enable: true
-    wechat:  https://image.wazicode.top/blog/202305142347635.jpg
-    alipay: https://image.wazicode.top/blog/202305142347636.jpg
-    url:  
+    wechat:  https://image.wazicode.top/blog/202311122249790.jpg
+    alipay: https://image.wazicode.top/blog/202311122249805.jpg
+    url:  /about#award
   covercolor: #文章cover取色
     enable: false
     local: true  
