@@ -1,1 +1,10 @@
-<div>图书页面规划中...</div>
+<% const top_img = site.data.book.top_img; %>
+<div class="book_top_img" style="background: url('<%= url_for(top_img.url) %>') left 50% / cover no-repeat !important;">
+    <div class="card-content">
+        <div class="author-content-item-tips">阅读</div>
+        <span class="author-content-item-title"><%= top_img.text %></span>
+    </div>
+</div>
+<div class="book-list">
+
+</div>
