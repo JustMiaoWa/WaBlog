@@ -21,9 +21,10 @@
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;
+    /* color: black; */
 }
 .book_top_img>.card-content>.author-content-item-tips{
-    margin-top: 13rem;
+    /* margin-top: 13rem; */
     opacity: 0.8;
     font-size: 0.6rem;
     margin-bottom: 0.5rem;
@@ -34,6 +35,55 @@
     line-height: 1;
     margin-bottom: 0.5rem;
 }
-.book-list {
+.book_top_img>.card-content>.content-bottom{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book_top_img>.card-content>.content-bottom>.tips{
+
+}
+
+.equipment {
+    margin-top: 26px;
+}
+.equipment>.equipment-item>.equipment-item-title{
+    line-height: 1;
+    margin-top: 1rem;
+    padding-top: 0;
+    padding-left: 0!important;
+    font-weight: 700;
+    position: relative;
+    margin: 1rem 0 0.7rem;
+    color: var(--heo-fontcolor);
+}
+.equipment>.equipment-item>.equipment-item-description {
+    line-height: 1;
+    margin: 4px 0 8px 0;
+    color: var(--heo-secondtext);
+}
+.equipment>.equipment-item>.equipment-item-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+.equipment>.equipment-item>.equipment-item-content>.equipment-item-content-item{
+    width: calc(25% - 12px);
+    border-radius: 12px;
+    border: var(--style-border-always);
+    overflow: hidden;
+    margin: 8px 6px;
+    background: var(--heo-card-bg);
+    box-shadow: var(--heo-shadow-border);
+    min-height: 400px;
+    position: relative;
+}
+.equipment>.equipment-item>.equipment-item-content>.equipment-item-content-item>.equipment-item-content-item-cover{
     width: 100%;
+    height: 200px;
+    background: var(--heo-secondbg);
+    display: flex;
+    justify-content: center;
 }

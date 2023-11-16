@@ -1,10 +1,23 @@
 <% const top_img = site.data.book.top_img; %>
-<div class="book_top_img" style="background: url('<%= url_for(top_img.url) %>') left 50% / cover no-repeat !important;">
+<div class="book_top_img" style="background: url('<%= url_for(top_img.url) %>') left 85% / cover no-repeat !important;">
     <div class="card-content">
         <div class="author-content-item-tips">阅读</div>
         <span class="author-content-item-title"><%= top_img.text %></span>
+        <div class="content-bottom">
+            <div class="tips"><%= top_img.tips %></div>
+        </div>
     </div>
 </div>
-<div class="book-list">
-
+<div class="equipment">
+    <div class="equipment-item">
+        <h2 class="equipment-item-title">书籍</h2>
+        <div class="equipment-item-description">自己阅读过或打算阅读的书籍</div>
+        <div class="equipment-item-content">
+            <div class="equipment-item-content-item">
+                <div class="equipment-item-content-item-cover">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
