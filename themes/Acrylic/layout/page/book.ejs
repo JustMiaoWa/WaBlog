@@ -1,4 +1,5 @@
 <% const top_img = site.data.book.top_img; %>
+<% const book_list = site.data.book.book_list; %>
 <div class="book_top_img" style="background: url('<%= url_for(top_img.url) %>') left 85% / cover no-repeat !important;">
     <div class="card-content">
         <div class="author-content-item-tips">阅读</div>
@@ -13,11 +14,40 @@
         <h2 class="equipment-item-title">书籍</h2>
         <div class="equipment-item-description">自己阅读过或打算阅读的书籍</div>
         <div class="equipment-item-content">
-            <div class="equipment-item-content-item">
-                <div class="equipment-item-content-item-cover">
-                    
+            <% book_list.forEach(data => { %>
+                <div class="equipment-item-content-item">
+                    <div class="equipment-item-content-item-cover">
+                        <ul class="book-ul">
+                            <li><img src="<%= data.book_img %>" /></li>
+                            <li><img src="/img/book/1.png" /></li>
+                            <li><img src="/img/book/2.png" /></li>
+                            <li><img src="/img/book/3.png" /></li>
+                            <li><img src="/img/book/4.png" /></li>
+                            <li><img src="/img/book/5.png" /></li>
+                            <li><img src="/img/book/6.png" /></li>
+                        </ul>
+                    </div>
+                    <div class="equipment-item-content-item-info">
+                        <div class="equipment-item-content-item-name">
+                            <%= data.book_name %>                        
+                        </div>
+                        <div class="equipment-item-content-item-specification">
+                            <%= data.book_author %>  
+                        </div>
+                        <div class="equipment-item-content-item-description">
+                            <%= data.book_desc %>  
+                        </div>
+                        <div class="equipment-item-content-item-toolbar">
+                            <a class="equipment-item-content-item-link">
+                                摘抄
+                            </a>
+                            <a class="equipment-item-content-item-icon">
+                                <i class="icon fas fa-book-open"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            <% }) %>
         </div>
     </div>
 </div>

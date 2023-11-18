@@ -3,5 +3,27 @@ top_img:
   text: 分享读书摘抄
   tips: 没想到有一天，我也会爱上枯燥的文字
 book_list:
-  - book_name: 
-    book_img: 
+  - book_name: 云边有个小卖部
+    book_author: 张嘉佳
+    book_desc: 云边有个小卖部是中国当代作家张嘉佳创作的长篇小说，首次出版于2018年7月
+    book_img: https://image.wazicode.top/blog/202311181924014.png
+  - book_name: 活着
+    book_author: 余华
+    book_desc: 活着是中国当代作家余华创作的长篇虚构小说，首次发表于《收获》1992年第6期
+    book_img: https://image.wazicode.top/blog/202311182310536.png
+  - book_name: 天堂旅行团
+    book_author: 张嘉佳
+    book_desc: 天堂旅行团是中国当代作家张嘉佳创作的长篇小说，首次出版于2021年8月。
+    book_img: https://image.wazicode.top/blog/202311182326144.png
+  - book_name: 月亮与六便士
+    book_author: 威廉·萨默赛特·毛姆
+    book_desc: 月亮和六便士是英国小说家威廉·萨默赛特·毛姆创作的长篇小说，成书于1919年。
+    book_img: https://image.wazicode.top/blog/202311182330438.png
+  - book_name: 小王子
+    book_author: 安托万·德·圣-埃克苏佩
+    book_desc: 小王子是法国作家安托万·德·圣-埃克苏佩里于1942年写成的儿童文学短篇小说。
+    book_img: https://image.wazicode.top/blog/202311182332611.png
+  - book_name: 你也走了很远的路吧
+    book_author: 卢思浩
+    book_desc: 你也走了很远的路吧是湖南文艺出版社在2017年08月出版的图书，作者是卢思浩。
+    book_img: https://image.wazicode.top/blog/202311182336735.png

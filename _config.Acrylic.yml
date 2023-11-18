@@ -52,7 +52,7 @@ nav:
       url: false
       child:
         读过:
-          url: /
+          url: /book/
           icon: fas fa-book-open
         看过:
           url: /

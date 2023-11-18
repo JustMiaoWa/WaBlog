@@ -77,13 +77,166 @@
     margin: 8px 6px;
     background: var(--heo-card-bg);
     box-shadow: var(--heo-shadow-border);
-    min-height: 400px;
+    min-height: 450px;
     position: relative;
 }
+@media screen and (max-width: 1200px) {
+    .equipment>.equipment-item>.equipment-item-content>.equipment-item-content-item {
+        width:calc(50% - 12px)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .equipment>.equipment-item>.equipment-item-content>.equipment-item-content-item {
+        width:100%
+    }
+}
+
+
 .equipment>.equipment-item>.equipment-item-content>.equipment-item-content-item>.equipment-item-content-item-cover{
     width: 100%;
-    height: 200px;
+    height: 280px;
     background: var(--heo-secondbg);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+.book-ul {
+    width: 130px;
+    height: 180px;
+    /* overflow: hidden; */
+    list-style: none;
+    transform-style: preserve-3d;
+    perspective: 900px;
+    transition: 1.5s;
+}
+.book-ul>li{
+    position: absolute;
+    transform-origin: left;
+}
+.book-ul>li:nth-child(1){
+    transform: rotateY(-25deg);
+    transition: 2s;
+}
+.book-ul>li:nth-child(2){
+    transform: rotateY(-23deg);
+    transition: 1.7s;
+}
+.book-ul>li:nth-child(3){
+    transform: rotateY(-21deg);
+    transition: 1.4s;
+}
+.book-ul>li:nth-child(4){
+    transform: rotateY(-19deg);
+    transition: 1.1s;
+}
+.book-ul>li:nth-child(5){
+    transform: rotateY(-17deg);
+    transition: 0.8s;
+}
+.book-ul>li:nth-child(6){
+    transform: rotateY(-15deg);
+    transition: 0.5s;
+}
+.equipment-item-content-item-cover:hover .book-ul{
+    transform: translateX(75px);
+}
+.equipment-item-content-item-cover:hover .book-ul>li:nth-child(1){
+    transform: rotateY(-180deg);
+    transition: 1.4s;
+}
+.equipment-item-content-item-cover:hover .book-ul>li:nth-child(2){
+    transform: rotateY(-180deg);
+    transition: 2.0s;
+}
+.equipment-item-content-item-cover:hover .book-ul>li:nth-child(3){
+    transform: rotateY(-180deg);
+    transition: 2.6s;
+}
+.equipment-item-content-item-cover:hover .book-ul>li:nth-child(4){
+    transform: rotateY(-180deg);
+    transition: 3.2s;
+}
+.equipment-item-content-item-cover:hover .book-ul>li:nth-child(5){
+    transform: rotateY(-180deg);
+    transition: 3.8s;
+}
+.equipment-item-content-item-cover:hover .book-ul>li:nth-child(6){
+    transform: rotateY(-180deg);
+    transition: 4.4s;
+}
+
+.book-ul>li>img{
+    width: 130px;
+    height: 180px;
+    box-shadow: 1px 4px 5px rgba(0,0,0,0.2);
+}
+
+
+.equipment-item-content-item>.equipment-item-content-item-info{
+    padding: 8px 16px 16px 16px;
+    margin-top: 12px;
+}
+
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-name{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    width: fit-content;
+}
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-name:hover{
+    color: var(--heo-main)
+}
+
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-specification{
+    font-size: 12px;
+    color: var(--heo-secondtext);
+    line-height: 1;
+    margin-bottom: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-description{
+    line-height: 20px;
+    color: var(--heo-secondtext);
+    height: 60px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+}
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-toolbar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-toolbar>.equipment-item-content-item-link{
+    font-size: 12px;
+    background: var(--heo-gray-op);
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-toolbar>.equipment-item-content-item-link:hover{
+    background: var(--heo-lighttext);
+    color: var(--heo-card-bg)
+}
+
+
+.equipment-item-content-item>.equipment-item-content-item-info>.equipment-item-content-item-toolbar>.equipment-item-content-item-icon{
+    cursor: pointer;
+}
+
