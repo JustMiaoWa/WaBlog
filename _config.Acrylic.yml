@@ -54,9 +54,9 @@ nav:
         读过:
           url: /book/
           icon: fas fa-book-open
-        看过:
-          url: /
-          icon: fas fa-compact-disc
+        # 看过:
+        #   url: /
+        #   icon: fas fa-compact-disc
         站长:
           url: /about/
           icon: fa-solid fa-user
@@ -186,40 +186,54 @@ aside:
     runtime: '2023-05-12 00:00:00'
 
 # 页脚
-# footer:
-#   information:
-#     left:
-#       Github:
-#         icon: fa-brands fa-github
-#         url: https://github.com/JustMiaoWa
-#       Mail:
-#         icon: fa-solid fa-envelope
-#         url: /
-#     right:
-#       网易云:
-#         icon: fa-solid fa-music
-#         url: /
-#       bilibili:
-#         icon: fa-brands fa-bilibili
-#         url: /
-
-  # group:
-  #   导航:
-  #     文章归档: /archives/
-  #     文章分类: /categories/
-  #     文章标签: /tags/
-  #     友链: /link/
-  #   服务:
-  #     51la统计: https://51.la/
-  #     百度统计: https://tongji.baidu.com/
-  #     TianliCDN: https://ql.tianli0.top/
-  #   Acrylic:
-  #     主题官网: https://acrylic.zhheo.com/
-  #     Github: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic
-  #     Heo: https://blog.zhheo.com/
-  #   推荐友链:
-  #     Heo: https://blog.zhheo.com/
-  #     Akilar: https://akilar.top
+footer:
+  information:
+    left:
+      Github:
+        icon: fa-brands fa-github
+        url: https://github.com/JustMiaoWa
+      Gitee:
+        icon: fa-brands fa-git-alt
+        url: https://gitee.com/justmiaowa
+      Mail:
+        icon: fa-solid fa-envelope
+        url: mailto:1421372365@qq.com
+      笔记文档:
+        icon: fa-brands fa-vuejs
+        url: /
+    right:
+      CSDN:
+        icon: fa-brands fa-cuttlefish
+        url: https://blog.csdn.net/2301_77878360
+      bilibili:
+        icon: fa-brands fa-bilibili
+        url: https://space.bilibili.com/3493285851040490
+      抖音:
+        icon: fa-brands fa-tiktok
+        url: https://www.douyin.com/user/MS4wLjABAAAAQiqBXfhMVd95tw4e4mYcdTXeTJ6TAr2TtLE9bxZIZKbS1tCAc5HbY6RhKwCWZAQd
+      掘金:
+        icon: fa-solid fa-angles-down
+        url: https://juejin.cn/user/1884997357418663
+  group:
+    导航:
+      文章归档: /archives/
+      文章分类: /categories/
+      文章标签: /tags/
+      友链: /link/
+    服务:
+      51la统计: https://51.la/
+      百度统计: https://tongji.baidu.com/
+    Acrylic:
+      主题官网: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
+      Github: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
+    隐私:
+      版权协议: /copyright/
+      隐私政策: /privacy/
+      服务条款: /terms/
+      cookie政策: /cookie/
+    推荐友链:
+      Heo: https://blog.zhheo.com/
+      Akilar: https://akilar.top
 
   randomlink: false
 

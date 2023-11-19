@@ -26,6 +26,15 @@
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="/css/custom.css">
 <link rel="stylesheet" href="/css/book.css">
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?ad8c9253f2e51625704e088b308876a2";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 <%- partial('partial/compoment/inject/head', {cache: true}) %>
 <% if (theme.extends.head) for (const i of theme.extends.head){ %>
     <%- i %>
