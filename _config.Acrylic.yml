@@ -25,6 +25,9 @@ nav:
         博客:
           icon: https://image.wazicode.top/blog/202307060036148.png
           url: /
+        哇记:
+          icon: /img/nav/top.png
+          url: https://doc.wazicode.top
 # 导航栏内容
   menu:
     首页:
@@ -125,7 +128,7 @@ hometop:
     G3:
       name: 实用教程
       icon: fas fa-book
-      url: /
+      url: https://doc.wazicode.top
 
   recommendList:
     sup: 置顶文章
@@ -200,7 +203,7 @@ footer:
         url: mailto:1421372365@qq.com
       笔记文档:
         icon: fa-brands fa-vuejs
-        url: /
+        url: https://doc.wazicode.top
     right:
       CSDN:
         icon: fa-brands fa-cuttlefish
