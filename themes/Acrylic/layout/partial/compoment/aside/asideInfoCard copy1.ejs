@@ -1,0 +1,36 @@
+<div class="self-aside-card">
+    <div class="self-card-content">
+        <div class="self-card-sayhi">
+            <div class="content" id="author-info__sayhi"></div>
+        </div>
+        <div class="self-card-avatar-group">
+            <div class="self-card-avatar-img">
+                <img class="avatar-img" src="<%= url_for(theme.aside.card.img) %>"/>
+            </div>
+            <div class="self-card-avatar-emo">
+                <img src="<%= url_for(theme.aside.card.sticker) %>" />
+            </div>
+        </div>
+        <div class="self-card-des-group">
+            <div class="author-info__name">
+                <%= config.author %>
+            </div>
+            <div class="author-info__description"><%- theme.aside.card.content %></div>
+        </div>
+        <div class="self-card-social-group">
+            <div class="social-icons">
+                <% for(const i in theme.aside.card.information){ %>
+                    <a class="social-icon" href="<%= url_for(theme.aside.card.information[i].url) %>" title="<%= i %>">
+                        <i class="<%= theme.aside.card.information[i].icon %>"></i>
+                    </a>
+                <% } %>
+            </div>
+            <div class="about">
+                <a class="about-button" href="<%= url_for(theme.aside.card.button.url) %>">
+                    <i class="fas fa-circle-chevron-right"></i>
+                    <span class="banner-button-text"><%= theme.aside.card.button.text %></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
