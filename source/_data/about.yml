@@ -9,7 +9,7 @@ authorinfo:
     - "脚踏实地行动派 🏃"
     - "团队小组发动机 🧱"
     - "壮汉人狠话不多 💢"
-  image: "http://image.wazicode.top/blog/202307060036148.png"
+  image: "https://image.wazicode.top/blog/202307060036148.png"
 contentinfo:
   name: 哇子
   title: 后端开发者、前端爱好者、博主
@@ -89,7 +89,7 @@ personalities:
   linkText: "16personalities"
   typeLink: "https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC"
   typeName: "提倡者"
-  myphoto: "http://image.wazicode.top/blog/202307172348269.png"
+  myphoto: "https://image.wazicode.top/blog/202307172348269.png"
 
 motto:
   title: 摘抄
@@ -106,12 +106,12 @@ game1:
   title: "极限国度"
   icon: "fas fa-gamepad"
   tips: "比尔吉沃特"
-  img: http://image.wazicode.top/blog/202307170031662.png
+  img: https://image.wazicode.top/blog/202307170031662.png
 game2:
   title: "和平精英"
   icon: "fas fa-dice-d20"
   tips: "ID 1234"
-  img: http://image.wazicode.top/blog/202307172324844.png
+  img: https://image.wazicode.top/blog/202307172324844.png
 likes:
   - type: like-technology
     tips: 关注偏好
@@ -126,7 +126,7 @@ likes:
 
 
 oneself:
-  map: http://image.wazicode.top/blog/202307170009858.png
+  map: https://image.wazicode.top/blog/202307170009858.png
   location: '中国，成都市'
   birthYear: '1999'
   university: '成都信息工程大学'
