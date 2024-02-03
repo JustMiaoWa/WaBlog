@@ -41,6 +41,7 @@
 }
 
 #flip-wrapper .left .title{
+    margin-bottom: 10px;
     font-size: 1.35rem;
     font-weight: 700;
 }

@@ -26,7 +26,7 @@ nav:
           icon: https://image.wazicode.top/blog/202307060036148.png
           url: /
         哇记:
-          icon: /img/nav/top.png
+          icon: https://image.wazicode.top/blog/202402032209073.png
           url: https://doc.wazicode.top
 # 导航栏内容
   menu:
@@ -134,8 +134,8 @@ hometop:
     sup: 置顶文章
     title: 精选文章，帮你快人一步
     url: /
-    img: https://img0.baidu.com/it/u=742839054,695122920&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500
-    color: '#006a73'
+    img: https://image.wazicode.top/blog/202305142347631.jpg
+    color: '#01688f'
 
 # 个人卡片
 aside:
@@ -168,11 +168,20 @@ aside:
     color: '#0099FF'
     face:
       title: QQ群
-      desc: 加入技术交流群与我们交流
+      desc: 摸鱼交流技术,掌握技术前沿
     backface:
       title: 扫一扫
       desc: 获取最新信息和帮助
       img: https://image.wazicode.top/blog/202305210142013.jpg
+  wechat: 
+    color: '#19e7b6'
+    face:
+      title: 公众号
+      desc: 快人一步获取最新文章
+    backface:
+      title: 扫一扫
+      desc: 获取最新信息和帮助
+      img: https://image.wazicode.top/blog/202402032143432.jpg
 
   toc: 
     post: true
