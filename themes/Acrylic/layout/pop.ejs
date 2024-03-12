@@ -5,65 +5,43 @@
     </div>
     <hr class="middle_solid"/>
     <div class="content">
-        <p>祝你天天开心🎉🎉</p>
+        <p>祝你万事胜意🎉🎉</p>
         <p>
             <i class="icon fas fa-arrow-circle-right"></i>
         </p>
     </div>
 </div>
 <script>
-    // 获取元素
-    var isHelloBox = document.getElementById('isHello');
-    const isHello = function(){
-        if (window.location.pathname === '/') {
-            isHelloBox.style.display = 'block';
-            isHelloBox.classList.remove('hide_box')
-        } else {
-            isHelloBox.style.display = 'none';
-            isHelloBox.classList.remove('hide_box')
-        }
-    }
-    // 创建一个 MutationObserver 实例
-    const observer = new MutationObserver((mutationsList) => {
-        for (let mutation of mutationsList) {
-            // 检查 class 变化
-            if (mutation.type === "attributes" && mutation.attributeName === "class") {
-                const isClassPresent = isHelloBox.classList.contains("hide_box");
-                if (isClassPresent) {
-                    // 在元素具有目标 class 时执行的操作
-                    setTimeout(function(){
-                        isHelloBox.style.display = 'none';
-                    },700)
-                }
-            }
-        }
-    });
-    // 配置观察选项
-    const config = { attributes: true };
-
-    // 开始观察目标元素的变化
-    observer.observe(isHelloBox, config);
-
-    const addClassToIsHelloBox = function(){
-        const computedStyle = window.getComputedStyle(isHelloBox)
-        if(computedStyle.display === "block"){
-            isHelloBox.classList.add('hide_box')
-        }else{
-            isHelloBox.classList.remove('hide_box')
-        }
-    }
-    // 延迟时间给定
-    const delayTime = 5000;
-    let timerId;
-    document.addEventListener('pjax:complete',function(){
-        clearTimeout(timerId);
-        isHello();
-        timerId = setTimeout(addClassToIsHelloBox,delayTime);
-    });
-    window.addEventListener('load',function(){
-        isHello();
-        setTimeout(addClassToIsHelloBox,delayTime);
+    
+    var helloBox = document.querySelector('#isHello');
+    // 首页刷新
+    window.addEventListener('load',()=> { 
+        isHome()
     })
+    document.addEventListener('pjax:complete',function(){
+        isHome()
+    })
+    const isHome = function(){
+        helloBox.classList.remove("ani_box")
+        helloBox.classList.remove("hide_box")
+        helloBox.style.display = 'none';
+        if (window.location.pathname === '/') {
+            setTimeout(() => {
+                helloBox.style.display = 'block';
+                helloBox.classList.add("ani_box")
+            },500)
+            setTimeout(() => {
+                // helloBox.classList.remove("ani_box")
+                helloBox.classList.add("hide_box")
+            },3500)
+        }else{
+            helloBox.style.display = 'none';
+        }
+    }
+    
+
+
+
     
 </script>
 <style>
@@ -86,10 +64,14 @@
         border: var(--style-border);
         padding: 8px 16px;
         font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
+        
+    }
+    .ani_box {
         animation: barrageIn 0.6s cubic-bezier(0.42, 0, 0.3, 1.11);
     }
     .hide_box {
         opacity: 0;
+        /* display: none; */
         animation: barrageOut 0.6s cubic-bezier(0.42, 0, 0.3, 1.11);
         z-index: -1;
     }
