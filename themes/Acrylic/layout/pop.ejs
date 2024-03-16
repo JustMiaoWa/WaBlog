@@ -12,12 +12,16 @@
     </div>
 </div>
 <script>
-    
+    let addBox,hideBox
     var helloBox = document.querySelector('#isHello');
     // 首页刷新
     window.addEventListener('load',()=> { 
         isHome()
     })
+    document.addEventListener('pjax:send', () => { 
+        clearTimeout(addBox)
+        clearTimeout(hideBox)
+     })
     document.addEventListener('pjax:complete',function(){
         isHome()
     })
@@ -26,11 +30,11 @@
         helloBox.classList.remove("hide_box")
         helloBox.style.display = 'none';
         if (window.location.pathname === '/') {
-            setTimeout(() => {
+            addBox = setTimeout(() => {
                 helloBox.style.display = 'block';
                 helloBox.classList.add("ani_box")
             },500)
-            setTimeout(() => {
+            hideBox = setTimeout(() => {
                 // helloBox.classList.remove("ani_box")
                 helloBox.classList.add("hide_box")
             },3500)
