@@ -148,3 +148,7 @@ rewardList:
     money: 1
     time: 2023-05-12
     vip: false
+  - name: wain
+    money: 3.33
+    time: 2024-09-28
+    vip: true
